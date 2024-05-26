@@ -260,9 +260,36 @@ p {
 }
 
 .btn-sel h4{
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 13px;
 }
+
+.subirarchivo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.subirarchivo p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.upload {
+    display: none;
+}
+
+.btn-upload{
+    width: 40%;
+    font-size: 30px;
+    margin-top: 8px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
 
 .button{
     width: 30%;
@@ -272,7 +299,7 @@ p {
     padding: 12px;
     color: brown;
     font-weight: bold;
-    margin: 16px 10px;
+    margin: 25px 10px;
     font-size: 16px;
     cursor: pointer;
     text-align: center;
@@ -308,7 +335,7 @@ p {
 }
 
 /* ********************************** */
-/*     MEDIA QUERIES HASTA 468px      */
+/*     MEDIA QUERY HASTA 468px      */
 /* ********************************** */
 
 @media (max-width: 468px) {
