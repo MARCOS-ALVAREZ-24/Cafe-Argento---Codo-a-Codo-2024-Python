@@ -207,6 +207,11 @@ body{
     color: antiquewhite;
 }
 
+.about-end a{
+    color: #c7a17a;
+    text-decoration: underline;
+}
+
 h2{
     color: green;
     font-size: 15px;
