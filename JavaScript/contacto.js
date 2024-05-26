@@ -8,7 +8,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
     if (camposIncompletos.length === 0) { //si un campo esta vacio o con 0 caracteres se considerá incompleto
     if (confirm('¿Está seguro de que desea enviar el formulario?')) { //cuadro que pedira confirmar el envio al usuario
         this.submit(); //si esta OK envia el formulario
-        alert('Formulario enviado correctamente');
+        alert('Formulario enviado correctamente!');
         window.location.href = "../index.html"; //aqui volvería al index tras enviar el formulario
         }
     } else {
