@@ -1,0 +1,41 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+}
+header, footer {
+    background-color: #333;
+    color: #160202;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+nav {
+    background-color: #662e2e;
+    color: #0f0e0e;
+    text-align: center;
+    padding: 10px 0;
+}
+section {
+    padding: 20px;
+}
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    header, footer, nav {
+        padding: 10px 0;
+    }
+    section {
+        padding: 10px;
+    }
+}
